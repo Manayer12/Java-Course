@@ -1,0 +1,147 @@
+import java.util.Scanner;
+
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void main(String[] args) {
+  // 1.Write a Java program to print the sum, multiply, subtract, divide and remainder of two numbers.
+
+        /*Scanner data = new Scanner(System.in);
+        System.out.println("enter first number:");
+        int firstNumber= data.nextInt();
+        System.out.println("enter second number:");
+
+        int secondNumber= data.nextInt();
+        int sum=firstNumber+secondNumber;
+        int sub=firstNumber-secondNumber;
+        int mult=firstNumber*secondNumber;
+        int div=firstNumber/secondNumber;
+        int mod=firstNumber%secondNumber;
+
+        System.out.println(firstNumber+"+"+secondNumber+"=" +sum);
+        System.out.println(firstNumber+"-"+secondNumber+"=" +sub);
+        System.out.println(firstNumber+"*"+secondNumber+"=" +mult);
+        System.out.println(firstNumber+"/"+secondNumber+"=" +div);
+        System.out.println(firstNumber+"%"+secondNumber+"=" +mod); */
+
+
+
+        //2.Write a Java program to convert a given string into lowercase.
+      /*  Scanner data = new Scanner(System.in);
+        System.out.println("Enter your sentence with uppercase letters:");
+        String word=data.nextLine();
+        System.out.println(word.toLowerCase());*/
+
+
+
+       //3.Write a Java program that takes a string and a number from the user,then prints the character in the given index.
+     /*    Scanner data = new Scanner(System.in);
+        System.out.println("enter word:");
+         String jbc=data.nextLine();
+        System.out.println("enter number:");
+         int java_number=data.nextInt();
+        System.out.println(jbc.charAt(java_number));*/
+
+
+
+        //4.Write a Java program to accept a number and check the number is even or not. Prints 1 if the number is even or 0 if the number is odd. (use if-statement)
+      /*  Scanner data = new Scanner(System.in);
+        System.out.println("enter number to check:");
+        int checknum=data.nextInt();
+        if(checknum % 2 == 0){
+            System.out.println(1);
+        } else  {
+            System.out.println(0);   }*/
+
+
+
+        //5.Write a program that checks the role of the user
+       /* Scanner data = new Scanner(System.in);
+        System.out.println("enter your role:");
+        String the_role =data.nextLine();
+        if(the_role.contains("Admin") || the_role.contains("admin")){
+            System.out.println("welcome Admin");
+        } else if (the_role.contains("Superuser")|| the_role.contains("superuser")) {
+            System.out.println("welcome Superuser");
+        }else {
+            System.out.println("welcome User");
+        }*/
+
+
+
+
+        //6.Write a Java program to calculate the sum of two integers and return true if the sum is equal to a third integer.
+       /* Scanner data = new Scanner(System.in);
+        System.out.println("enter first number:");
+        int num_one=data.nextInt();
+        System.out.println("enter second number:");
+        int num_two=data.nextInt();
+        System.out.println("enter third number:");
+        int num_three=data.nextInt();
+        int sum=num_one+num_two;
+        Boolean result;
+
+         if(result=(sum == num_three)) {
+             System.out.println(result);
+         }else {
+            System.out.println(false);} */
+
+
+
+        //7.Take three numbers from the user and print the greatest number.
+       /* Scanner data = new Scanner(System.in);
+        System.out.println("enter first number:");
+        int num_one=data.nextInt();
+        System.out.println("enter second number:");
+        int num_two=data.nextInt();
+        System.out.println("enter third number:");
+        int num_three=data.nextInt();
+
+        if (num_one > num_two && num_one >num_three){
+            System.out.println("The greatest:"+num_one);
+        } else if (num_two> num_one && num_two > num_three){
+            System.out.println("The greatest:"+num_two);
+        } else {
+            System.out.println("The greatest:"+num_three);
+        } */
+
+
+
+
+        //8.Write a Java program that keeps a number from the user and generates an integer between 1 and 7 and displays the name of the weekday.
+       /* Scanner data = new Scanner(System.in);
+        System.out.println("enter your number:");
+        int days_of_week=data.nextInt();
+        switch (days_of_week){
+            case 1:
+                System.out.println("Sunday");
+                break;
+            case 2:
+                System.out.println("Monday");
+                break;
+            case 3:
+                System.out.println("Tuesday");
+                break;
+            case 4:
+                System.out.println("Wednesday");
+                break;
+            case 5:
+                System.out.println("Thursday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Friday");
+                break;
+            default:
+                System.out.println("** please enter number from 1 to 7 !!**");
+        }*/
+
+
+
+    }}
+
+
+
+

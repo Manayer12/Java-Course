@@ -1,0 +1,173 @@
+
+import java.util.Scanner;
+
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void main(String[] args) {
+
+//1.Write a program that prints the numbers from 1 to 100 such that:
+        /*for(int num=1;num<=100;num++){
+            System.out.println(num);
+            if((num % 3==0) && (num %5 ==0) ){
+                System.out.println("FizzBuzz");
+            } else if (num% 5 == 0) {
+                System.out.println("Buzz");
+            } else if(num % 3 == 0){
+                System.out.println("Fizz");
+           }else {
+                System.out.println("the number is not multiple of 3 or 5");
+            }
+
+        }*/
+
+
+
+// 2.Write a Java program to reverse a string.
+       /* String word=("The quick brown fox");
+        char charcters;
+        String rev= " ";
+        for(int i=1;i<word.length();i++){
+               charcters= word.charAt(i);
+                rev=charcters+rev;}
+        System.out.println(rev);*/
+
+
+  //3.Write a program that prompts the user to input a positive integer. It should then print the multiplication table of that number.
+   /* Scanner scan = new Scanner(System.in);
+        System.out.println("enter positive number:");
+                int n = scan.nextInt();
+                System.out.println(n);
+
+                while (n > 0) {
+
+                System.out.println(n + "*1=" + n * 1 + "\n"+ n + "*2=" + n * 2 + "\n"+n + "*3=" + n * 3 +
+                "\n"+n + "*4=" + n * 4 + "\n"+n + "*5=" + n * 5 + "\n"+n + "*6=" + n * 6 + "\n"+
+                n + "*7=" + n * 7 + "\n"+n + "*8=" + n * 8 + "\n"+n + "*9=" + n * 9 + "\n"+n +
+                "*10=" + n * 10 + "\n"+"*11=" + n * 11 + "\n"+"*12=" + n * 12 + "\n");
+
+                break;
+                }
+                if(n<0){
+        System.out.println("not a postive number :(");
+        }*/
+
+
+//4.Write a program to find the factorial value of any number entered through the keyboard.
+      /*  int factorial=1;
+        Scanner f_number=new Scanner(System.in);
+        System.out.println("enter number to git its factorial value: ");
+        int num=f_number.nextInt();
+
+        for(int i=1;i<=num;i++){
+            System.out.print(i+"*");
+            factorial=i*factorial;
+        }
+        System.out.println("\n"+"the factorial is="+factorial);*/
+
+//5.Two numbers are entered through the keyboard. Write a program to find the value of one number raised to the power of another. (Do not use Java built-in method)
+//        int resulte=1 ;
+//        Scanner twonumber=new Scanner(System.in);
+//        System.out.println("enter two numbers , first the base second the power");
+//                int num1=twonumber.nextInt();
+//                int num2=twonumber.nextInt();
+//
+//                for (int i=1;i<=num2;i++){
+//                    if(num1==0 || num2==0){
+//                        System.out.println("enter valid number:");
+//                    } else {
+//                      resulte*=num1 ;
+//                    }
+//                }
+//                  System.out.println(resulte);
+
+
+
+//6.Write a program that reads a set of integers, and then prints the sum of the even and odd integers.
+/*int oddsum=0;
+int evensum=0;
+Scanner odd_even=new Scanner(System.in);
+System.out.println("Select a number");
+int set_of_numbers=odd_even.nextInt();
+for (int i=1;i<=set_of_numbers;i++){
+    System.out.println(i);
+    if(i%2==0){
+        evensum+= i;
+    } else{
+        oddsum+=i;
+    }
+
+}        System.out.println("the even sum is "+evensum +"and "+" the odd sum is "+oddsum);*/
+
+
+
+ // 7.Write a program that prompts the user to input a positive integer. It should then output a message indicating whether the number is a prime number.
+       /* Scanner pr=new Scanner(System.in);
+        System.out.println("please enter number:");
+        int prnum=pr.nextInt();
+        int n=2;
+        for(int i=0;i<=n;i++){
+            if(prnum%n==0){
+                System.out.println("it is  prime");}
+            else{ System.out.println (" it is not a Prime ");
+            }}
+    */
+
+//8.Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered.
+/*Scanner enter = new Scanner(System.in);
+        int pov=0;
+        int net=0;
+        int zeros=0;
+        int en;
+        Boolean ft=true;
+        do{
+            System.out.println("enter numbers as  many as you want:");
+            en = enter.nextInt();
+            if(en>0){
+                pov++;}
+            else if(en < 0) {
+                net++;
+            } else if (en == 0) {
+                zeros++;
+            }
+
+            System.out.println(" the count of positives are "+pov);
+            System.out.println(" the count of negatives are "+net);
+            System.out.println(" the count of zeros are " +zeros);}
+
+        while (ft);
+
+        */
+
+
+//9.Use a for loop to print headings for four weeks (Weeks 1 - 4). Then use another for loop to print the days (Days 1 -7) for each week.
+   /* for(int i=1;i<=4;i++){
+        System.out.println("Week"+ i);
+        System.out.println("  ");
+        for (int j=1;j<=7;j++){
+            System.out.println("Day"+ j);
+            System.out.println("  ");
+        }
+
+    }*/
+
+        // 10.Write a program that check if the word is a palindrome or not. hint: A string is said to be a palindrome if it is the same if we start reading it from left to right or right to left.
+    /*String reverse="";
+    Scanner words=new Scanner(System.in);
+    String wr=words.nextLine();
+        for(int i=wr.length()-1;i>=0;i--)
+                reverse+=wr.charAt(i);
+
+                if(wr.equals(reverse))
+                System.out.println("it is palindrome");
+                else
+                System.out.println("it is not");
+
+                }}*/
+
+
+
+
+
+    }}
+

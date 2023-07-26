@@ -1,0 +1,168 @@
+
+
+//     1.Write a Java program to test if the first and the last element of an array of integers are same. The length of the array must be greater than or equal to 2
+//        Boolean b=true;
+//      int numbers[]={50, -20, 0, 30, 40, 60, 10};
+//      for(int i=0;i<numbers.length;i++){
+//          if(numbers[0]==numbers[6]){
+//               b=true;
+//          }else{
+//              b=false;
+//      }
+//         }
+//        System.out.println(b);
+
+
+    //  2.Write a Java program to find the k largest elements in a given array. Elements in the array can be in any order.
+         /*int k;
+         Scanner scan=new Scanner(System.in);
+        System.out.println(" enter how many element you want:");
+        k=scan.nextInt();
+        int[] arr=new int[k];
+        int max_s;
+
+        System.out.println("enter the array numbers:");
+        for ( int i=0;i<k;i++){
+        arr[i]=scan.nextInt();}
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i+1; j < arr.length; j++) {
+                if (arr[i] < arr[j]) {
+                    max_s = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = max_s;
+                }}}
+
+                System.out.println(" the first large num is :" + arr[0]);
+                System.out.println(" the second large num is :" + arr[1]);
+                System.out.println(" the third large num is:" + arr[2]);
+            }}*/
+
+    // 3. Write a Java program to find the numbers greater than the average of the numbers of a given array.
+       /*
+          int avg;
+        int sum = 0;
+        int resulte = 0;
+        int i;
+        int[] numbers = {1, 4, 17, 7, 25, 3, 100};
+        int n_c = numbers.length;
+        for ( i = 0; i < numbers.length; i++) {
+            sum += numbers[i];
+        }
+        avg = sum / n_c;
+        System.out.print("The average of the said array is:"+avg+" "+"The numbers in the said array that are greater than the average are:" +"\b");
+        for ( i = 0; i < numbers.length; i++) {
+            if (numbers[i] > avg) {
+                System.out.print(" "+numbers[i]+" ");
+
+            }
+
+        } */
+
+ //4.Write a Java program to get the larger value between first and last element of an array of integers.
+//        int [] lnum= {20,30,40};
+//        int saving;
+//        System.out.println("Larger value between first and last element:");
+//        for (int n:lnum);
+//            if (lnum[0]> lnum[lnum.length-1]){
+//                System.out.println(lnum[0]);
+//            }else {
+//                System.out.println(lnum[lnum.length-1]);
+//            }
+
+
+ // 5.Write a Java program to swap the first and last elements of an array and create a new array.
+//
+//    int counter=0;
+//    ArrayList<Integer> arr=new ArrayList<>();
+//        arr.add(20);
+//        arr.add(30);
+//        arr.add(40);
+//    ArrayList<Integer>new_nums=new ArrayList<>(arr.size());
+//        for(int i=arr.size()-1;i>=0;i++)
+//    {   new_nums.set(counter, arr.get(i));
+//        counter++;
+//    }
+//    arr=new_nums;
+//         for (int i=0;i<new_nums.size();i++){
+//        System.out.println(new_nums.get(i));}
+
+
+//6.Write a Java program to find all of the longest word in a given dictionary.
+       String [] words={"cat", "dog", "red", "is", "am" };
+        String w="";
+        String largest = words[0];
+
+        // i try to make the program check th words word by word using words[i].compareTo(largest)
+        for (int i=0;i<words.length;i++){
+            if (words[i].equals(largest)){
+                largest = words[i];
+        }}
+            System.out.println(largest);
+
+    }
+    }
+
+       // 7. Write a menu driven Java program with following option:
+
+       /* Scanner scan=new Scanner(System.in);
+        int a=0;
+
+        System.out.println("please chose from the menu starting by 1 :)");
+        System.out.println("1.Accept elements of an array\n" +
+                "\n" +
+                "2.Display elements of an array\n" +
+                "\n" +
+                "3.Search the element within array\n" +
+                "\n" +
+                "4.Sort the array\n" +
+                "\n" +
+                "5.To Stop");
+                 int b;
+
+        int menu=scan.nextInt();
+        switch (menu){
+                 case 1:
+                System.out.println(" enter how many element you want:");
+                a=scan.nextInt();
+                int[] arrEl=new int[a];
+                System.out.println("enter the array numbers:");
+                for ( int i=0;i<arrEl.length;i++){
+                    arrEl[i]=scan.nextInt();
+                     savei=arrEl[i];
+
+                }
+
+            case 2:
+                System.out.println("the Array is ");
+
+
+            case 3:
+                arrEl=new int[a];
+                System.out.print("Enter the element you want to find:");
+                b= scan.nextInt();
+                for(int i = 0; i < arrEl.length; i++){
+                    if(b==arrEl[i]){
+                        System.out.println("the number you search about in the Array");
+                    }else {
+                        System.out.println("it is not in the Array");
+                    }
+
+                }
+                  break;
+            case 4:
+                arrEl=new int[a];
+                Arrays.sort(arrEl);
+                System.out.println("Sorted Array:"+ Arrays.toString(arrEl));
+                break;
+
+            case 5:
+                System.exit(0);
+
+                break;
+
+
+        }*/
+
+
+        

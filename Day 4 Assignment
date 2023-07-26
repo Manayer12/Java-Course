@@ -165,4 +165,29 @@
         }*/
 
 
+
+
+ // 8. Write a program thats displays the number of occurrences of an element in the array.
+       // Scanner s=new Scanner(System.in);
+
+       /* ArrayList<Integer> lA=new ArrayList<>();
+        int count=0;
+        lA.add(1);
+        lA.add(1);
+        lA.add(1);
+        lA.add(3);
+        lA.add(3);
+        lA.add(5);
+        System.out.print("which number you want to check its occurrences ");
+        int x = s.nextInt(lA.size());
+        for(int i = 0; i < lA.size(); i++)
+           {  if(lA.get(i) == x)
+           {count++;
+               }
+           }
+        System.out.println("The number has been repeated"+count);
+          }}*/
+
+
+
         
